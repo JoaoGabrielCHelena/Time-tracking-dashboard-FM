@@ -34,6 +34,10 @@ body {
   height: 80%;
   padding: 2rem;
 }
+.main-block:not(#profile):hover:not(:has(img:hover)) {
+  cursor: pointer;
+  background-color: color-mix(in srgb, hsl(235, 46%, 20%) 90%, white);
+}
 .main-block:not(#profile) h1 {
   font-size: 18px;
   font-weight: 500;
@@ -99,29 +103,32 @@ body {
   cursor: pointer;
   color: hsl(236, 100%, 87%);
 }
+#profile label:hover {
+  filter: brightness(150%);
+}
 
 #Work {
-  background: hsl(15, 100%, 70%);
+  background: hsl(15, 100%, 70%) url("../images/icon-work.svg") no-repeat 90% -6%;
 }
 
 #Play {
-  background: hsl(195, 74%, 62%);
+  background: hsl(195, 74%, 62%) url("../images/icon-play.svg") no-repeat 90% -6%;
 }
 
 #Study {
-  background: hsl(348, 100%, 68%);
+  background: hsl(348, 100%, 68%) url("../images/icon-study.svg") no-repeat 90% -6%;
 }
 
 #Exercise {
-  background: hsl(145, 58%, 55%);
+  background: hsl(145, 58%, 55%) url("../images/icon-exercise.svg") no-repeat 90% 0;
 }
 
 #Social {
-  background: hsl(264, 64%, 52%);
+  background: hsl(264, 64%, 52%) url("../images/icon-social.svg") no-repeat 90% -6%;
 }
 
 #SelfCare {
-  background: hsl(43, 84%, 65%);
+  background: hsl(43, 84%, 65%) url("../images/icon-self-care.svg") no-repeat 90% -6%;
 }
 
 .wrapper {
