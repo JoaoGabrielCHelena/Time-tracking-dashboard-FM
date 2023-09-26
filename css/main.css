@@ -124,7 +124,7 @@ body {
 }
 
 #Social {
-  background: hsl(264, 64%, 52%) url("../images/icon-social.svg") no-repeat 90% -6%;
+  background: hsl(264, 64%, 52%) url("../images/icon-social.svg") no-repeat 90% 0;
 }
 
 #SelfCare {
