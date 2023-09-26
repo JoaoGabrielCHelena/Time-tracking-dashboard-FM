@@ -1,4 +1,4 @@
-swap("daily", "Yesterday")
+swap("weekly", "Last Week")
 
 function swap(option, phrase) {
     fetch('data.json')
